@@ -4,15 +4,21 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$USER_HOME$/gradle-7.6" />
-        <option name="gradleJvm" value="17" />
+        <option name="gradleJvm" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/test" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/test" />
           </set>
         </option>
       </GradleProjectSettings>

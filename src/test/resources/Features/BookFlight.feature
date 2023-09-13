@@ -2,4 +2,6 @@
   Feature: Book a flight
 
     Background: Login into application
-    Scenario: Navigate to Booking page
+    Scenario : book with future dates
+      Given : user is logged in
+      Then : select travel date
