@@ -11,6 +11,8 @@ public class HomePage extends UtilityFunctions {
         profile.isVisible();
         String profileText = profile.getText();
         Assert.assertTrue(profileText.equalsIgnoreCase("Hi vishnuvardhan"));
+
+
     }
 
 
