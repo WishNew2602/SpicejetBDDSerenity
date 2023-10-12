@@ -20,7 +20,7 @@ public class LoginPage extends UtilityFunctions {
    WebElementFacade spiceJetImg = $("//div[@style='background-image: url(\"https://www.spicejet.com/public/v1.svg\");']");
 
    public void openApplication(){
-      getDriver().get("https://www.spicejet.com/");
+      open();
    }
    public void verifyAppOpened(){
       spiceJetImg.isPresent();
