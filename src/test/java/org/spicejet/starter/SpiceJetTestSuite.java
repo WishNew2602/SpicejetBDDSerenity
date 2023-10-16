@@ -7,12 +7,12 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = "pretty",
-        features = "src/test/resources/Features/loginPage.feature",
+        features = "src/test/resources/Features",
         glue = "stepdefs"
 )
 public class SpiceJetTestSuite {
-	
-	public static void main(String[] args) {
-		
-	}
+
+    public static void main(String[] args) {
+
+    }
 }

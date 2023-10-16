@@ -37,6 +37,8 @@ dependencies {
 }
 
 test{
+
+    scanForTestClasses = true
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
 }

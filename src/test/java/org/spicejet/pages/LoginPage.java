@@ -19,9 +19,6 @@ public class LoginPage extends UtilityFunctions {
    WebElementFacade loginButton = $("//div[@data-testid='login-cta']");
    WebElementFacade spiceJetImg = $("//div[@style='background-image: url(\"https://www.spicejet.com/public/v1.svg\");']");
 
-   public void openApplication(){
-      openUrl("https://www.spicejet.com/");
-   }
    public void verifyAppOpened(){
       spiceJetImg.isPresent();
    }

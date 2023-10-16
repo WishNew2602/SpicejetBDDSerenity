@@ -4,21 +4,21 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
-import org.openqa.selenium.WebDriver;
+import org.spicejet.pages.CommmonSteps;
 import org.spicejet.pages.HomePageSteps;
 import org.spicejet.pages.LoginPageSteps;
 
-public class LoginStepDefs{
+public class LoginStepDefinitions {
     @Steps
+    CommmonSteps comSteps;
     LoginPageSteps loginSteps;
     HomePageSteps homeSteps;
 
 
     @Given("Open Spicejet WebPage")
     public void navigate_to_application() {
-        loginSteps.openSpiceJet();
+        comSteps.openSpiceJet();
     }
     @And("Verify WebPage is Opened")
     public void verifyPageOpen(){

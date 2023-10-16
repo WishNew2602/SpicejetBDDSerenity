@@ -8,10 +8,6 @@ import org.spicejet.utility.UtilityFunctions;
 public class LoginPageSteps extends UtilityFunctions {
     LoginPage login = new LoginPage();
     @Step
-    public void openSpiceJet(){
-        login.openApplication();
-    }
-    @Step
     public void verifySpicejetOpened(){
         login.verifyAppOpened();
     }
