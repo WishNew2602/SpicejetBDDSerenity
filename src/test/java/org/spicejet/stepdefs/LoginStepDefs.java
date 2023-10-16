@@ -15,8 +15,6 @@ public class LoginStepDefs{
     LoginPageSteps loginSteps;
     HomePageSteps homeSteps;
 
-    @Managed(driver="chrome")
-    WebDriver driver;
 
     @Given("Open Spicejet WebPage")
     public void navigate_to_application() {

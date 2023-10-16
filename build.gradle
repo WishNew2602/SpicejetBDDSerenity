@@ -2,14 +2,13 @@ defaultTasks 'clean' , 'test' , 'aggregate'
 
 repositories{
     mavenLocal()
-    jcenter()
-    mavenLocal()
+    mavenCentral()
 }
 
 buildscript {
     repositories {
         mavenLocal()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.24")
@@ -18,12 +17,10 @@ buildscript {
 }
 
 apply plugin: 'java'
-targetCompatibility = 11
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
-sourceCompatibility = 11
 
 serenity{
     reports = ["single-page-html"]

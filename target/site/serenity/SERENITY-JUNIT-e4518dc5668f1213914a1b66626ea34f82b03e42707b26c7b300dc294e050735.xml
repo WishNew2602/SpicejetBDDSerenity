@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Login into application with different credentials" skipped="1" tests="1" time="0.21" timestamp="2023-09-13 09:45:58"><testcase name="Login with with correct and incorrect mobile number and password and verify login feature"><skipped/></testcase></testsuite>

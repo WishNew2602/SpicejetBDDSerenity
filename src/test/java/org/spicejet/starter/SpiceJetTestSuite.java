@@ -11,4 +11,8 @@ import org.junit.runner.RunWith;
         glue = "stepdefs"
 )
 public class SpiceJetTestSuite {
+	
+	public static void main(String[] args) {
+		
+	}
 }
