@@ -1,4 +1,4 @@
-package org.spicejet.StepDefinitions;
+package org.spicejet.stepdefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;

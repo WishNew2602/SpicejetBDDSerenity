@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = "pretty",
         features = "src/test/resources/Features",
-        glue = "stepdefs"
+        glue = "StepDefinitions"
 )
 public class SpiceJetTestSuite {
 
