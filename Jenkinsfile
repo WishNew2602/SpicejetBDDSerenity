@@ -7,7 +7,6 @@ pipeline {
                 git(url: 'https://github.com/WishNew2602/SpicejetBDDSerenity.git')
             }
         }
-
         stage('Clean') {
             steps {
                 // Execute the Gradle clean task
