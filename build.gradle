@@ -1,8 +1,8 @@
 defaultTasks 'clean' , 'test' , 'aggregate'
 
 repositories{
-    mavenLocal()
     mavenCentral()
+    mavenLocal()
 }
 
 buildscript {
@@ -27,18 +27,12 @@ serenity{
 }
 
 dependencies {
-    implementation 'org.seleniumhq.selenium:selenium-java:4.7.2'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.11.0'
     testImplementation 'net.serenity-bdd:serenity-cucumber:3.4.3'
-    implementation 'net.serenity-bdd:serenity-screenplay:3.5.0'
-    implementation 'net.serenity-bdd:serenity-rest-assured:3.4.3'
-    testImplementation 'io.rest-assured:rest-assured:5.3.0'
     testImplementation 'junit:junit:4.13.2'
-
 }
 
 test{
-
-    scanForTestClasses = true
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
 }
