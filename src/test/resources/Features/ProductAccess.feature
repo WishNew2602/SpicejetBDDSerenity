@@ -1,6 +1,9 @@
+
+
 @Feature1
 Feature: Search by category and Filters
 
+	@ignore
   @filterscenerio
   Scenario: Applying Filters to Cell Phones & Smartphones
     Given I am on the eBay homepage

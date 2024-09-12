@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login into application with different credentials","Login with with correct and incorrect mobile number and password and verify login feature","PENDING","2023-10-16T23:19:38.5416369+05:30[Asia/Calcutta]","0.0","0.18"
+"Cart Test scenerios","Check To verify that Save for later button will remove item from Cart to Saved for Later","ERROR","2024-05-30T08:33:46.2595684+05:30[Asia/Calcutta]","0.0","2.23"

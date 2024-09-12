@@ -13,7 +13,7 @@ public class CellSmartPhonePage extends UtilityFunctions {
     @FindBy(xpath = "//button[@aria-label='All Filters']")
     private  WebElement allFilters;
 
-    @FindBy(xpath = "//*[@id=\"s0-28_1-9-0-1[0]-0-0-6-5-4[0]-flyout\"]/button/span")
+    @FindBy(xpath = "//span[contains(text(),\"filters applied\")]")
     private WebElement filterApplied;
 
 

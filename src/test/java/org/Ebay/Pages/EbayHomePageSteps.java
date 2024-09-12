@@ -10,6 +10,10 @@ public class EbayHomePageSteps extends UtilityFunctions {
 
 
     @Step
+    public void clickSignIn() {
+    	Ehome.clickSignIn();
+    }
+    @Step
     public void clickShopByCatogory(){
         Ehome.clickshopByCato();
     }

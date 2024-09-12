@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = "pretty",
-        features = "src/test/resources/Features/ProductAccess.feature",
+        features = "src/test/resources/Features",
         glue = "org.Ebay.StepDefinitions"
 )
 public class TestRunner {

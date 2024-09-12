@@ -8,9 +8,10 @@ import net.thucydides.core.annotations.Steps;
 import org.Ebay.Pages.AllFilterSteps;
 import org.Ebay.Pages.CellSmartPhoneSteps;
 import org.Ebay.Pages.EbayHomePageSteps;
+import org.Ebay.Pages.SignInSteps;
 import org.Ebay.UtilityActions.BaseClass;
 
-public class HomePageStepsDefs {
+public class ProductAccessStepDefs {
 
     @Steps
     //BaseClass Bclass = new BaseClass();
@@ -18,10 +19,13 @@ public class HomePageStepsDefs {
     CellSmartPhoneSteps CSPSteps;
     AllFilterSteps allFilterSteps;
     BaseClass BaseClassobj;
+    SignInSteps signInSteps;
 
     @Given("I am on the eBay homepage")
     public void i_am_on_the_e_bay_homepage() throws InterruptedException {
         BaseClassobj.openApplication();
+        EbayHpagesteps.clickSignIn();
+        signInSteps.signInIntoEbay("GeneralUser");
     }
     @When("I navigate to Search by category > Electronics > Cell Phones & accessories")
     public void i_navigate_to_CellPhone_acess() {

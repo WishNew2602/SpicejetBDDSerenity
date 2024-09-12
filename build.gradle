@@ -21,15 +21,19 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
 
 serenity{
     reports = ["single-page-html"]
 }
 
 dependencies {
-    implementation 'org.seleniumhq.selenium:selenium-java:4.11.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.20.0'
     testImplementation 'net.serenity-bdd:serenity-cucumber:3.4.3'
     testImplementation 'junit:junit:4.13.2'
+    testImplementation'io.rest-assured:rest-assured:5.3.0'
 }
 
 test{
